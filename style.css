@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+#imgOn{
+    width:260px;
+    height: 280px;
+    display:none;
+    position: absolute;
+}
+#imgOff{
+    width:225px;
+    height: 222px;
+    position: absolute;
+    left: 22px;
+    top: 55px;
+}
+.images{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    color: yellow;
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 2px rgb(237, 248, 134);
+    border-radius: 5px;
+
+}
+
+#LightOff{
+    background-color: gray;
+    color: white;
+}
